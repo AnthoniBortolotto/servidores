@@ -12,7 +12,8 @@
   "scripts": {
     "udp-server": "nodemon ./udp.js",
     "udp-client": "nodemon ./clientUdp.js",
-    "tcp-server": "nodemon ./tcp.js"
+    "tcp-server": "nodemon ./tcp.js",
+    "tcp-client": "nodemon ./tcpClient.js"
   },
   "author": "",
   "license": "ISC"
