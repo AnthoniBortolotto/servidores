@@ -1,0 +1,19 @@
+{
+  "name": "codigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clientUdp.js",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "udp-server": "nodemon ./udp.js",
+    "udp-client": "nodemon ./clientUdp.js",
+    "tcp-server": "nodemon ./tcp.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
